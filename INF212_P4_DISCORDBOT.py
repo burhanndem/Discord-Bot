@@ -41,17 +41,11 @@ async def on_message(message):
     if str(message.channel) in channels and str(message.author) in valid_users:
         if message.content.startswith('++'):
             await message.channel.send("bence de")
-        elif message.content.startswith('seni siksem iyi'):
-            embed = discord.Embed(color=0xbe1919)
-            embed.set_image(url="https://i.hizliresim.com/GB402Z.jpg")
-            await message.channel.send(embed=embed)
         elif message.content.startswith('!losers'):
             await message.channel.send(
                 "Mahmut Safa BULAT 141024051" + "\n" + "Abdurrahman Cercis UYSAL 141024070" + "\n""Burhan DEMİRTAŞ 151024055 ")
         elif message.content == "!beniöv":
             await message.channel.send(f'{message.author} gardaşım sen bitanesin gardaşım')
-        elif message.content.startswith('!clear'):
-            await message.channel.send('abi cöp varsa aliyim..') and await message.channel.purge()
         elif message.content.count("?") > 0:
             await message.channel.send("why not abi")
 
