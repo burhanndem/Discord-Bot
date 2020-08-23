@@ -1,4 +1,4 @@
- proje 4 dc bot
+ project 4 dc bot
  ================
  
  - im tryna learn to code a discord bot that can do something cool..
