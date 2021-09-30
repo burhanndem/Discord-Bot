@@ -11,7 +11,7 @@ GUILD = os.getenv('GUILD')
 
 channels = ["genel"]
 valid_users = ["Burhan//NewBaron//22#6767", "velevkinoname#6912", "Mamadou™#1193", "safa#7371", "Griffin#1430"]
-id = client.get_guild(659447889872945173)
+id = client.get_guild(721962545958617119)
 
 
 @client.event
